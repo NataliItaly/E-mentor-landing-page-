@@ -1,0 +1,37 @@
+.cards {
+    max-width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cards__item {
+    width: 170px;
+    text-align: center;
+}
+
+.cards__image_l-b {
+    border-bottom-left-radius: 80px;
+}
+
+.cards__image_l-t {
+    border-top-left-radius: 80px;
+}
+
+.cards__image_r-b {
+    border-bottom-right-radius: 80px;
+}
+
+.cards__image_t-r {
+    border-top-right-radius: 80px;
+}
+
+.cards__image_both {
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.cards__text {
+    font-size: 14px;
+}

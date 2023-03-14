@@ -1,0 +1,25 @@
+.scroll {
+    grid-area: scroll-down;
+    writing-mode: vertical-rl;
+    transition: .3s;
+}
+
+.scroll__link {
+    color: inherit;
+    font-size: 14px;
+}
+
+.scroll:hover {
+    opacity: .7;
+}
+
+.scroll:active {
+    opacity: .5;
+}
+
+@media (max-width: 720px) {
+    .scroll {
+        align-self: end;
+        padding-bottom: 20px;
+    }
+}

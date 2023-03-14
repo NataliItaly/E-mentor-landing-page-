@@ -1,0 +1,62 @@
+@import "blocks/logo.css";
+@import "blocks/burger.css";
+@import "blocks/container.css";
+@import "blocks/social.css";
+@import "blocks/logo.css";
+@import "blocks/button.css";
+@import "blocks/scroll-down.css";
+@import "blocks/header.css";
+@import "blocks/section.css";
+@import "blocks/statistic.css";
+@import "helpers/hidden.css";
+@import "helpers/flex-container.css";
+@import "blocks/main-screen.css";
+@import "blocks/mentors.css";
+@import "blocks/cards.css";
+@import "blocks/cards.css";
+@import "blocks/pages-nav.css";
+@import "blocks/border-round.css";
+@import "blocks/popular-courses.css";
+@import "blocks/banner.css";
+@import "blocks/footer.css";
+@import "helpers/article.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  box-sizing: border-box;
+  transition: all .4s;
+}
+
+:root {
+  --primary-bg: #10b582;
+  --primary-color: #fdfdfd;
+  --secondary-color: #353a5a;
+  --accent-color: #fa9f42;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.block {
+  overflow: hidden;
+}
+
+.text_small {
+  font-size: 14px;
+}
+
+
+

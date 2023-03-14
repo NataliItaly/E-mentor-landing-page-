@@ -1,0 +1,26 @@
+.popular-courses {
+    padding: 40px 0 60px;
+}
+
+.popular-courses__link {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.popular-courses__link:hover {
+    transform: translateY(-2px);
+    box-shadow: 10px 10px 20px rgba(101, 101, 101, 0.3);
+}
+
+.popular-courses__icon {
+    width: 16px;
+    height: 16px;
+    color: var(--accent-color);
+    background-color: white;
+    position: absolute;
+}

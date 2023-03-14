@@ -1,0 +1,12 @@
+.article {
+    max-width: 870px;
+    padding-bottom: 80px;
+}
+
+.article__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    color: var(--secondary-color);
+    padding-bottom: 25px;
+}

@@ -1,0 +1,19 @@
+.pages__nav {
+    display: flex;
+    gap: 10px;
+}
+
+.pages__link {
+    display: inline-block;
+    padding: 5px 25px 5px 15px;
+    background-image: url("../../assets/images/arrow-icon.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: relative;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.pages__link:hover {
+    box-shadow: -5px 5px 5px rgb(101 101 101 / 30%);
+}

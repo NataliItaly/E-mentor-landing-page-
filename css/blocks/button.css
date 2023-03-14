@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  width: 230px;
+  font-size: inherit;
+  padding: 20px 40px;
+  border-radius: 0px 20px;
+  box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.3);
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 5px 5px 20px rgba(101, 101, 101, 0.5);
+}
+
+.button_primary {
+  background: var(--accent-color);
+  color: var(--primary-color);
+}
+
+.button_secondary {
+    background-color: var(--primary-bg);
+    color: var(--primary-color);
+}
